@@ -1,5 +1,7 @@
-# -Predictive-Housing-Analytics-13-ML-Models-
-🏡 Housing Price Prediction Web App using Multiple ML Models (Linear, Tree-based, ANN, etc.) integrated with Flask
+# 🏡 Multi-Model Housing Price Prediction Web App (Flask + ML)
+
+This project predicts house prices using multiple Machine Learning models and serves them through a **Flask web application**.  
+Users can select from different ML models, input housing features, and get the predicted price instantly.
 
 ---
 
@@ -21,6 +23,7 @@
 ---
 
 ## 📂 Project Structure
+
 ├── data/
 │ └── USA_Housing.csv # Dataset
 ├── models/
@@ -35,6 +38,7 @@
 ├── model_evaluation_results.csv # Evaluation metrics of all models
 ├── train_models.py # Script to train and save models
 └── README.md
+
 
 ---
 
@@ -58,21 +62,16 @@
    ```bash
    git clone https://github.com/<your-username>/housing-price-flask.git
    cd housing-price-flask/models
-Install dependencies
+2. Train models (if needed)
+   ```bash
+   python train_models.py
+3. Run Flask app
+   ```bash
+   python app.py
+4. Open browser → http://127.0.0.1:50
 
-bash
-pip install -r requirements.txt
-Train models (if needed)
+🛠️ # Tech Stack
 
-bash
-python train_models.py
-Run Flask app
-
-bash
-python app.py
-Open browser → http://127.0.0.1:5000
-
-#🛠️ Tech Stack
 Python, Flask
 
 scikit-learn, XGBoost, LightGBM
@@ -81,7 +80,7 @@ HTML, CSS (templates)
 
 Pandas, Numpy
 
-📌 Future Improvements
+📌 # Future Improvements
 
 Add more advanced deep learning models
 
@@ -89,16 +88,6 @@ Deploy on cloud (Heroku/AWS/GCP)
 
 Enhance UI with charts and visualizations
 
-👨‍💻 Author
-Tharuni T
-
-
----
-
- 
-- One screenshot of `!<img width="1801" height="864" alt="home page" src="https://github.com/user-attachments/assets/8825185b-3694-4d61-8c09-633cf179e716" />`
-- One screenshot of `!<img width="1780" height="697" alt="prediction" src="https://github.com/user-attachments/assets/a2374e8f-b894-44f1-8c01-fcdcfabb10ce" />`
-
-- One screenshot of `!<img width="1382" height="701" alt="evaluation results" src="https://github.com/user-attachments/assets/efcd07ff-20a2-41c5-9a2b-eae487428df2" />`  
-
----
+**screenshots** 
+<img width="1801" height="864" alt="home page" src="https://github.com/user-attachments/assets/85b0957e-0772-4331-832d-0f13502c6c62" />
+<img width="1780" height="697" alt="prediction" src="https://github.com/user-attachments/assets/adbe8d59-5fee-4263-a8bd-22a033e8582e" />
